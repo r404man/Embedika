@@ -1,0 +1,18 @@
+.filter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 0.7px solid #cecece;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: #eeeeee;
+}

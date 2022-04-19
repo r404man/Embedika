@@ -1,0 +1,24 @@
+.card {
+    border: .7px solid #cecece;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-genres {
+    color: #cecece;
+}
+
+.card-genres span {
+    color: black;
+}
+
+.card-status {
+    margin-top: 10px;
+    color: tomato;
+}

@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-title">
+        {{anime?.title?.english}}
+    </div>
+    <div class="card-genres">
+        <span>Genres:</span>
+        <div class="genre" *ngFor="let genre of anime?.genres">
+            {{genre}}
+        </div>
+    </div>
+    <div class="card-status">
+        {{anime?.status}}
+    </div>
+</div>

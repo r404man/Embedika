@@ -1,0 +1,6 @@
+<div class="filter">
+    Filter by genre:
+    <div class="filter-btn" *ngFor="let genre of genreFilters" (click)="filterByGenre(genre)">
+        {{genre}}
+    </div>
+</div>
